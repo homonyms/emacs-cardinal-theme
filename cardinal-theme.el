@@ -245,7 +245,13 @@
    `(font-lock-type-face ((,class ())))
    `(font-lock-variable-name-face ((,class ())))
    `(font-lock-warning-face ((,class (:inherit warning))))
-   
+
+   ;;; eglot
+   `(eglot-highlight-symbol-face ((,class (:underlint t))))
+   `(eglot-inlay-hint-face ((,class (:inherit font-lock-comment-face :height 0.8))))
+   `(eglot-semantic-operator-face ((,class (:inherit font-lock-operator-face))))
+   `(eglot-semantic-method-face ((,class (:inherit font-lock-function-call-face))))
+
    ;;; highlight
    `(highlight-numbers-number ((,class (:inherit font-lock-number-face))))
    ;; hl-line
@@ -414,10 +420,6 @@
    `(rst-level-4 ((,class (:foreground ,yellow-900))))
    `(rst-level-5 ((,class (:foreground ,fuchsia-900))))
    `(rst-level-6 ((,class (:foreground ,cyan-900))))
-   
-   ;;; eglot
-   `(eglot-highlight-symbol-face ((,class (:underlint t))))
-   `(eglot-inlay-hint-face ((,class (:inherit font-lock-comment-face :height 0.8))))
 
    ;;; ace-window
    `(aw-leading-char-face ((,class (:inherit font-lock-keyword-face :height 3.0))))
