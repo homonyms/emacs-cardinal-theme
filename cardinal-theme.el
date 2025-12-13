@@ -433,6 +433,7 @@
    `(magit-diff-added-highlight ((,class (:background ,green-100 :foreground, green-900))))
    `(magit-diff-removed ((,class (:background ,red-50 :foreground, red-700))))
    `(magit-diff-removed-highlight ((,class (:background ,red-100 :foreground, red-900))))
+   `(magit-diff-lines-heading ((,class (:background ,orange-300))))
 
    ;;; semel
    `(semel-free-variable ((,class (:underline (:color ,yellow-600 :style wave)))))
@@ -450,6 +451,13 @@
    `(whitespace-space-before-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-tab ((,class (:inherit font-lock-delimiter-face))))
    `(whitespace-trailing ((,class (:inherit font-lock-delimiter-face))))
+
+   ;;; wgrep
+   `(wgrep-face ((,class ())))
+   `(wgrep-delete-face ((,class ())))
+   `(wgrep-file-face ((,class ())))
+   `(wgrep-reject-face ((,class ())))
+   `(wgrep-done-face ((,class ())))
 
    ;;; erc
    `(erc-nick-default-face ((,class (:inherit font-lock-function-name-face))))
