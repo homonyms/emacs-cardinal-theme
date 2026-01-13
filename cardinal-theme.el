@@ -152,8 +152,7 @@
       (yellow-700 "#854d0e")
       (yellow-800 "#a16207")
       (yellow-900 "#713f12")
-      (yellow-950 "#422006")
-      )
+      (yellow-950 "#422006"))
   (custom-theme-set-faces
    `cardinal
    `(default ((,class (:background ,neutral-50 :foreground ,neutral-700))))
@@ -214,12 +213,12 @@
    `(show-paren-match ((,class (:background ,pink-100))))
    `(show-paren-match-expression ((,class (:background ,pink-100))))
    `(show-paren-mismatch ((,class (:background ,red-400))))
-   
+
    ;;; flymake
    `(flymake-warning ((,class (:underline (:color ,yellow-600 :style wave)))))
    `(flymake-error ((,class (:underline (:color ,red-600 :style wave)))))
    `(flymake-note ((,class (:underline (:color ,blue-600 :style wave)))))
-   
+
    ;;; font-lock faces
    `(font-lock-bracket-face ((,class (:inherit font-lock-punctuation-face))))
    `(font-lock-builtin-face ((,class (:foreground ,pink-800))))
@@ -285,7 +284,7 @@
    ;;; pulse
    `(pulse-highlight-start-face ((,class (:inherit region :extend t))))
    `(pulse-highlight-face ((,class (:inherit region :extend t))))
-   
+
    ;;; Meow
    `(meow-beacon-indicator ((,class ())))
    `(meow-keypad-indicator ((,class ())))
@@ -349,8 +348,8 @@
    `(diff-refine-added ((,class (:background ,green-200))))
    `(diff-refine-changed ((,class (:background ,yellow-200))))
    `(diff-refine-removed ((,class (:background ,red-200))))
-   
-   ;;; diff-hl
+
+   ;;; Diff-hl
    `(diff-hl-change ((,class (:foreground ,yellow-500))))
    `(diff-hl-delete ((,class (:foreground ,red-600))))
    `(diff-hl-insert ((,class (:foreground ,green-600))))
@@ -383,7 +382,7 @@
    `(corfu-default ((,class (:background ,neutral-100))))
    `(corfu-deprecated ((,class (:inherit shadow :strike-through t))))
    `(corfu-popupinfo ((,class (:inherit corfu-default))))
-   
+
    ;;; org
    `(org-document-title ((,class (:inherit variable-pitch-text :height 1.2 :foreground ,neutral-950))))
    `(org-level-1 ((,class (:inherit variable-pitch-text :height 1.35 :foreground ,neutral-950))))
