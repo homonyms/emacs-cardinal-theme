@@ -190,7 +190,7 @@
    `(warning ((,class (:foreground ,yellow-700))))
    `(error ((,class (:foreground ,red-700))))
    `(escape-glyph ((,class (:foreground ,stone-500))))
-   `(fringe ((,class ())))
+   `(fringe ((,class (:background ,neutral-50))))
    `(match ((,class :background ,amber-200 :distant-foreground ,neutral-900)))
    `(highlight ((,class (:background ,amber-50 :distant-foreground ,neutral-950))))
    `(internal-border ((,class (:background ,neutral-50))))
@@ -281,7 +281,7 @@
    `(mode-line-highlight ((,class (:inherit highlight))))
 
    ;;; window divider
-   `(window-divider ((,class (:foreground ,neutral-300))))
+   `(window-divider ((,class (:inherit default :foreground ,neutral-300))))
    `(window-divider-first-pixel ((,class (:inherit window-divider))))
    `(window-divider-last-pixel ((,class (:inherit window-divider))))
 
